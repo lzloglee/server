@@ -1,6 +1,5 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import { aesEncrypt, aesDecrypt } from './utils/crypto.js';
 import router from './config/router.js';
 import proof from './utils/proof';
 const app = express();
